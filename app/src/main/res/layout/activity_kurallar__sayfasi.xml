@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Kurallar_Sayfasi"
+    android:background="@drawable/casino_background">
+
+
+    <TextView
+        android:id="@+id/black"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="BLACK"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:text="RED"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/even"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:text="EVEN"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/odd"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="170dp"
+        android:text="ODD"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/firsthalf"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="220dp"
+        android:text="1-18"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/secondhalf"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:text="19-36"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first12"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="320dp"
+        android:text="1'ST-12"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/second12"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp"
+        android:text="2'ND-12"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/third12"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="420dp"
+        android:text="3'RD-12"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="470dp"
+        android:text="NUMBER"
+        android:textAlignment="center"
+        android:textColor="#999900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cevap1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="Siyah Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/red"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="Kırmızı Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap3"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/even"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="Çift Rakam Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap4"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/odd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="Tek Rakam Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap5"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/firsthalf"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="1-18 Arası Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap6"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/secondhalf"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="19-36 Arası Gelirse Oynayan Kazanır (X2)" />
+
+    <TextView
+        android:id="@+id/cevap7"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/first12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="1-12 Arası Gelirse Oynayan Kazanır (X3)" />
+
+    <TextView
+        android:id="@+id/cevap8"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/second12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="13-24 Arası Gelirse Oynayan Kazanır (X3)" />
+
+    <TextView
+        android:id="@+id/cevap9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/third12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="25-36 Arası Gelirse Oynayan Kazanır (X3)" />
+
+    <TextView
+        android:id="@+id/cevap10"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/number"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="100dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:text="Oynanan Numara Gelirse Kazanır (X36)" />
+
+
+</RelativeLayout>

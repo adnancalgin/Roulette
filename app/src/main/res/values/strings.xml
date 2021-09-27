@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Roulette</string>
+    <string name="bet">bet</string>
+    <string name="placebet" />
+    <string name="money" />
+    <string name="black">BLACK</string>
+    <string name="Even">EVEN</string>
+    <string name="RED">RED</string>
+    <string name="spin">SPİN THE WHEEL</string>
+    <string name="miktar" />
+    <string name="ODD">ODD</string>
+    <string name="FİRST">1-18</string>
+    <string name="SECOND">19-36</string>
+</resources>

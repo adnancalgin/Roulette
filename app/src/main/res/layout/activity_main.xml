@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:background="@drawable/casino_background">
+
+
+
+    <ImageView
+        android:id="@+id/iv_gold"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        app:srcCompat="@drawable/gold" />
+
+    <TextView
+        android:id="@+id/tv_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/iv_gold"
+        android:textAlignment="center"
+        android:layout_marginEnd="50dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:layout_marginRight="50dp"
+        android:text="@string/money" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#ffb62f"
+        android:textSize="20sp"
+        android:layout_marginTop="22dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_pointer"
+        android:layout_width="25dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/point" />
+
+
+    <ImageView
+        android:id="@+id/iv_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/roulette" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/cb_black"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="380dp"
+        android:textStyle="bold"
+        android:text="@string/black"
+        android:layout_marginLeft="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb_even"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="380dp"
+        android:text="@string/Even"
+        android:layout_marginLeft="40dp" />
+
+    <CheckBox
+        android:id="@+id/cb_red"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:text="@string/RED"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <CheckBox
+        android:id="@+id/cb_firsthalf"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="420dp"
+        android:text="@string/FİRST"
+        android:layout_marginLeft="30dp" />
+
+    <CheckBox
+        android:id="@+id/cb_odd"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:text="@string/ODD"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="40dp" />
+
+    <CheckBox
+        android:id="@+id/cb_secondhalf"
+        android:background="#FFFFFF"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+        android:text="@string/SECOND"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="30dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_miktar"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_Kurallar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toRightOf="@+id/placebet"
+        android:background="#FFFFFF"
+        android:ems="5"
+        android:inputType="number"
+        android:text="@string/miktar"/>
+
+    <TextView
+        android:id="@+id/placebet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/et_miktar"
+        android:layout_marginLeft="35dp"
+        android:text="PLACE BET :"
+        android:textColor="#ffb62f"
+        android:layout_marginTop="-1dp"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_Kurallar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spin"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:text="Oyun Kurallarını Görmek İçin Tıklayınız !"
+        android:textAlignment="center"
+        android:textColor="#ffb62f"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/spin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="@string/spin"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
